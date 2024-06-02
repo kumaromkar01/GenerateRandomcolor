@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono&display=swap');
+.main{
+    width: 100vw;
+    height:100vh;
+    font-family: "Reddit Mono", monospace;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;  /* in flex it use to align items horizonatlly*/
+    align-items: center;    /* in flex it is used to align items vertically*/
+
+}
+.container{
+    padding: 10px;
+    width: 30vw;
+    border: 10px inset green;
+    text-align: center;
+}
+
+button{
+    padding: 3px;
+    border-radius: 10%;
+    width: fit-content;
+    font-size: 1rem;
+}
